@@ -3,4 +3,4 @@
 
 Hi there! Show My Project
 </br>
-farkhodoff-search-image-react-app.netlify.app
+https://farkhodoff-search-image-react-app.netlify.app/
