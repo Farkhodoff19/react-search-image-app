@@ -1,0 +1,61 @@
+body {
+  font-family: system-ui, sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./1.jpg);
+}
+
+button {
+  cursor: pointer;
+}
+
+.formSection {
+  display: flex;
+  justify-content: center;
+}
+
+.formSection > input {
+  font-size: 20px;
+  padding: 0 1rem;
+  line-height: 2rem;
+  border-radius: 50px;
+  background-color: #fff;
+  margin-right: 20px;
+}
+
+.formSection > button {
+  font-size: 20px;
+  padding: 0 1rem;
+  line-height: 2rem;
+  border-radius: 50px;
+  background-color: #222;
+  color: #00ffff;
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+}
+
+.result {
+  padding: 90px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.result > card {
+  display: flex;
+}
+
+.card > a > span > .resultImage {
+  flex: 100% 1;
+  margin-top: 1rem;
+  border-radius: 20px;
+  width: 350px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.card > a > .username {
+  text-align: center;
+}
